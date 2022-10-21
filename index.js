@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({hi: 'there'});
+    res.send({bye: 'brother'});
 });
 
 const PORT = process.env.PORT || 5000;            //In production heroku will provide the port number, for local we can specify 5000
